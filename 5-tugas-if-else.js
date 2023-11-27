@@ -17,8 +17,23 @@
 
 // algoritma
 // isi algoritma mu disini
+// 1. Mulai
+// 2. menentukan variabel nama dan peran
+// 3. jika memilih peran Ksatria, akan menghasilkan output halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!
+// 4. jika memilih peran Tabib, akan menghasilkan output halo Tabib ${nama} , kamu akan membantu temanmu yang terluka
+// 5. jika memilih peran Penyihir, akan menghasilkan output halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!
+// 6. Jika tidak memilih peran, akan menghasilkan output tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada
+// 7. Selesai
 
-
-let nama = "", peran = "";
+let nama = "Saty", peran = "Tabib";
 
 //code disini gunakan console.log untuk outputnya
+if (peran == "Ksatria") {
+    console.log(`halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`);
+} else if (peran == "Tabib") {
+    console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+} else if (peran == "Penyihir") {
+    console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+} else {
+    console.log(`tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada`);
+}
