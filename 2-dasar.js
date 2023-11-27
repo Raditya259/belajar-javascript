@@ -41,7 +41,7 @@ console.log(firstname + " " + lastname); //hasilnya Jon Don
 
 //contoh number
 let number = 20;
-console.log(number + 10); // hasilnya 30
+console.log(number + 10); //hasilnya 30
 number = 10; //nilainya diperbarui
 console.log(number + 10); //hasilnya 20
 number = false; //nilainya diperbarui. (False bernilai 0 dan True bernilai 1)
