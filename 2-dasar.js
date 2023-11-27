@@ -1,4 +1,4 @@
-//keyword untuk mendeklarasikan variabel
+//Keyword untuk mendeklarasikan variabel
 var a = "a"; //var (dapat diperbarui dan dideklarasikan ulang)
 let b = "b"; //let (dapat diperbarui tetapi tidak dapat dideklarasikan ulang)
 const c = "c"; //const (tidak dapat diperbarui dan tidak dapat dideklarasikan ulang)
@@ -8,7 +8,7 @@ let umur = 20; //number
 let apakahBenar = true; //boolean
 let uang = 3000.2; //number decimal
 
-//operator aritmatika (+ - / * %)
+//Operator Aritmatika (+ - / * %)
 let angka1 = 10;
 let angka2 = 20;
 console.log(angka1 + angka2); //hasilnya 30
@@ -32,14 +32,14 @@ console.log(hasilAritmatika, "perkalian"); //hasilnya 200
 hasilAritmatika = angka1 % angka2;
 console.log(hasilAritmatika, "hasil bagi"); //hasilnya 10
 
-//contoh string
+//Contoh String
 let firstname = "Jon";
 let lastname = "Don";
 let fullname = firstname + lastname;
 console.log(fullname); //hasilnya JonDon
 console.log(firstname + " " + lastname); //hasilnya Jon Don
 
-//contoh number
+//Contoh Number
 let number = 20;
 console.log(number + 10); //hasilnya 30
 number = 10; //nilainya diperbarui
